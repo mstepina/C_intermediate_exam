@@ -35,12 +35,9 @@ void print(struct s_node *root)
 {
 	if (!root)
 		return ;
-	//while(root)
-	//{
-		printf("%d ", root->value);
-		print(root->left);
-		print(root->right);
-	//}
+	printf("%d ", root->value);
+	print(root->left);
+	print(root->right);
 }
 
 int main()
